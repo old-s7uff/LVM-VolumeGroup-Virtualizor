@@ -3,15 +3,15 @@
 
 1. if your storage is mounted umount it like
 
-$. **`umount /dev/sda3`**
+ $. **`umount /dev/sda3`**
 
 2. Use pvcreate to create storage
 
-$ **`pvcreate /dev/sda3`**
+ $ **`pvcreate /dev/sda3`**
 
 3. Create LVM group.
 
-$ **`vgcreate your_group_name /dev/sda3`**
+ $ **`vgcreate your_group_name /dev/sda3`**
 
 Example
 
