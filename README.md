@@ -18,3 +18,6 @@ Example
 $ **`vgcreate dopehosting /dev/sda3`**
 
 Then go at virtualizor panel and set storage path "/dev/dopehosting"
+
+"/dev/sda3" is my disk where i'll store server files.
+you can find yours with **`fdisk -l`**
