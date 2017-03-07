@@ -3,7 +3,7 @@
 
 1. if your storage is mounted umount it like
 
-$. **`umount -u /dev/sda3`**
+$. **`umount /dev/sda3`**
 
 2. Use pvcreate to create storage
 
